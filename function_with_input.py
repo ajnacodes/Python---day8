@@ -34,4 +34,8 @@ def greet_with(name, location):
     print(f"Your location is {location}!")
     
 greet_with("Daniela","Vienna")
+
+
+# functions with keyword arguments    
+greet_with(location = "Vienna" , name = "Daniela")
     
